@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wishlist</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://cdn-icons-png.flaticon.com/512/234/234648.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <a href="index.html"> <i class="fa-solid fa-house"></i> Home</a>
+      <a href="wishlist.html"> <i class="fa-solid fa-heart"></i> Wishlist</a>
+    </nav>
+
+    <div id="loader-container">
+      <div class="loader" id="loader"></div>
+    </div>
+    <div id="wishlist" class="books-grid"></div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script
+      src="https://kit.fontawesome.com/0e0f149a49.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/wishlist.js"></script>
+  </body>
+</html>
